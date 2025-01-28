@@ -21,8 +21,8 @@ async def on_message(message):
     elif message.content.startswith('$bye'):
         await message.channel.send("\U0001f642")
     elif message.content.startswith('$nasılsın'):
-         await message.channel.send("iyiyim")
+         await message.channel.send("kötüyüm")
     else:
-        await message.channel.send("Şifreniz: " + gen_pass(10))
+        await message.channel.send("Şifreniz: " + gen_pass(20))
 
 client.run("BURAYA TOKEN GİRECEK")
