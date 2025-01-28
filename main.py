@@ -21,7 +21,7 @@ async def on_message(message):
     elif message.content.startswith('$bye'):
         await message.channel.send("\U0001f642")
     elif message.content.startswith('$nasılsın'):
-         await message.channel.send("kötüyüm")
+         await message.channel.send("kötü")
     else:
         await message.channel.send("Şifreniz: " + gen_pass(20))
 
